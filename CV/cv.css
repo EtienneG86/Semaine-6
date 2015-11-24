@@ -1,0 +1,124 @@
+/*élement généraux*/
+
+
+header, main, footer
+{
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, li, p
+{
+	font-family: 'Trebuchet MS',  sans-serif;
+	color: #660000;
+}
+
+.date
+{
+	font-style: italic;
+}
+/*header*/
+
+header
+{
+	background: url('old_moon.png') repeat-x ;
+
+}
+
+.image{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+
+#photo_cv
+{
+	width: 40%;
+	vertical-align: middle;
+	margin-right: 10px;
+	padding: 10px;
+	box-sizing:border-box;
+}
+
+.info_principale
+{
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing:border-box;
+	text-align: left;
+	
+}
+
+/*main*/
+main
+{
+	background: url('subtle_stripes.png');
+
+}
+
+.conteneur{
+	display: inline-block;
+	text-align: justify;
+}
+
+/*#parcours, #ambitions, #experiences
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding: 10px;
+	height: 300px;
+	text-align: justify;
+
+}
+
+#parcours, #ambitions
+{
+	border-right: 2px solid #330000;
+
+}*/
+
+
+
+/*footer*/
+
+footer
+{
+	background: url('old_moon.png') repeat-x;
+
+}
+
+#google_map
+{
+	display: inline-block;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+#info_perso
+{
+	display:inline-block;
+	vertical-align: top;
+	position: relative;
+
+}
+
+footer div ul
+{
+	list-style-type: none;
+	position: relative;
+	left: -35px;
+}
+
+#mail
+{
+	text-decoration:none;
+	color:#660000;
+}
+
+#mail:hover
+{
+	color: blue;
+
+}
