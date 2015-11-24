@@ -1,0 +1,161 @@
+
+body{
+	background-color: #43473b;
+}
+
+
+
+/*Header*/
+
+header{
+	background-color: #0097A7;
+	margin-bottom: 3px;
+}
+
+
+.entete{
+	height: 100px;
+	display: inline-block;
+	width: 100%;
+}
+
+.img_logo{
+
+	height: 66px;
+	width: 66px;
+	border-radius: 100%;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+h1{
+	font-size: 1.8em;
+	color: white;
+	margin-top: 35px;
+}
+.left{
+	display: inline-block;
+	margin-left: 10px;
+
+}
+
+.right{
+	display: inline-block;
+	margin-right: 15px;
+	float: right;
+}
+
+
+
+/*Format des tuiles */
+
+#tuile{
+	padding: 0px;
+	height: 265px;
+	border: 3px solid #43473b;
+	font-size: 1.2em;
+
+}
+
+#grande_tuile{
+	padding: 0px;
+	height: 530px;
+	position: relative;
+	border: 3px solid #43473b;
+	font-size: 1.2em;
+}
+
+
+/*couleur de fond des tuiles*/
+
+.leaderboard{
+	background-color: white;
+}
+
+.musique{
+	background-color: #F8BBD0;
+}
+
+.litt{
+	background-color: #7C4DFF;
+}
+
+.sports{
+	background-color: #B3E5FC;
+}
+
+.culture_g{
+	background-color: #FFF9C4;
+}
+
+.informatique{
+	background-color: #F8BBD0;
+}
+
+.cinema{
+	background-color: #00BCD4;
+}
+
+.peinture{
+	background-color: #B3E5FC;
+}
+
+.innovation{
+	background-color: #7C4DFF;
+}
+
+.voyage{
+	background-color: #FFEB3B;
+}
+
+.contact{
+	background-color: #FFF9C4;
+}
+
+/*Image des tuiles*/
+
+.img_tuile{
+	margin: auto;
+	margin-top: 50px;
+	display: block;
+}
+
+.img_grande_tuile{
+	margin: auto;
+	margin-top: 100px;
+	display: block;
+}
+
+/*Barre de lien*/
+
+.lien{
+	background-color: #43473b;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+	color: white;
+}
+
+.lien:hover{
+	opacity: 0.8;
+	height: 75px;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+
+.fleche_blanche{
+	float: right;
+	margin-right: 15px;
+}
+
+
+.lien:hover .fleche_blanche{
+	visibility: hidden;
+}
+
